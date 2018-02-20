@@ -124,6 +124,34 @@ footer {
 
 }
 
+@media screen and (orientation: portrait) {
+  body {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 10vh;
+  }
+
+  .intro-right {
+    width: 40vh;
+
+  }
+
+  #short-bio {
+    line-height: 3vh;
+    padding: 0px;
+  }
+
+  footer {
+    margin: auto;
+  }
+
+  #social-button-wrapper a {
+    margin: 0px;
+  }
+
+}
 
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
