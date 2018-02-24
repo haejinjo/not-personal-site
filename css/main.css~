@@ -144,7 +144,6 @@ footer {
   #short-bio {
     line-height: 3vh;
     padding: 0px;
-    width: 30vh;
 
   }
 
